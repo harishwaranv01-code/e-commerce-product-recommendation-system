@@ -1,6 +1,6 @@
 # Mini Project - E-Commerce Product Recommendation System
 
-## Check out my live version of the project here:
+## Project Link
 [E-Commerce Product Recommendation System](https://e-commerce-product-r-5yk6.bolt.host/)
 
 ### Description
