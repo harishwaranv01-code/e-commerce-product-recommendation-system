@@ -11,7 +11,7 @@ export function useProducts(categoryId?: string, searchQuery?: string, tags?: st
       try {
         let query = supabase
           .from('products')
-          .select('*, categories(*)')
+          .select('*', { count: 'exact' })
           .order('created_at', { ascending: false });
 
         if (categoryId) {
